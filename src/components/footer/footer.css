@@ -1,0 +1,18 @@
+.footer{
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+}

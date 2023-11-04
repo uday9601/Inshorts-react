@@ -1,0 +1,32 @@
+
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.downloadmessage{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.753);
+    color: white;
+    padding: 0 40px;
+    margin: 20px 0 35px 0;
+    box-shadow: 9px 9px 8px rgba(128, 128, 128, 0.258);
+}
+@media (max-width:700px){
+    .downloadmessage{
+        display: none;
+    }
+}
+
+.loadmore{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    padding: 7px 25px;
+    font-size: 13px;
+    margin-top: -20px;
+}
